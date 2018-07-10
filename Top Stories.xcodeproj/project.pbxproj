@@ -13,6 +13,7 @@
 		1429184620F551CE00E334F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1429184520F551CE00E334F8 /* Assets.xcassets */; };
 		1429184920F551CE00E334F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1429184720F551CE00E334F8 /* LaunchScreen.storyboard */; };
 		1429185320F5541700E334F8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429185220F5541700E334F8 /* SwiftyJSON.swift */; };
+		1429185520F562F300E334F8 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429185420F562F300E334F8 /* ArticlesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1429184820F551CE00E334F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1429184A20F551CE00E334F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1429185220F5541700E334F8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1429185420F562F300E334F8 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				1429183E20F551CC00E334F8 /* AppDelegate.swift */,
 				1429184020F551CC00E334F8 /* SourcesViewController.swift */,
+				1429185420F562F300E334F8 /* ArticlesViewController.swift */,
 				1429184220F551CC00E334F8 /* Main.storyboard */,
 				1429184520F551CE00E334F8 /* Assets.xcassets */,
 				1429184720F551CE00E334F8 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1429185320F5541700E334F8 /* SwiftyJSON.swift in Sources */,
+				1429185520F562F300E334F8 /* ArticlesViewController.swift in Sources */,
 				1429184120F551CC00E334F8 /* SourcesViewController.swift in Sources */,
 				1429183F20F551CC00E334F8 /* AppDelegate.swift in Sources */,
 			);
