@@ -87,5 +87,17 @@ import UIKit
         return cell
     }
 
+    @IBAction func onTappedDoneButton(_ sender: Any)
+    {
+        exit(0)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dvc = segue.destination as! ArticlesViewController
+        let index = tableView.indexPathForSelectedRow?.row
+        dvc.source = sources[index!]
+        dvc.apiKey = apiKey
+    }
 }
 
